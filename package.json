@@ -1,0 +1,28 @@
+{
+  "name": "first-next-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 8080",
+    "build": "next build",
+    "start": "next start -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alystroud/first-next-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alystroud/first-next-js/issues"
+  },
+  "homepage": "https://github.com/alystroud/first-next-js#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "next": "^9.1.1",
+    "node": "^14.4.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
