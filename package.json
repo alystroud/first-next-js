@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next -p 8080",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start -p 8080"
+    "start": "NODE_PATH=. NODE_ENV=production node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/alystroud/first-next-js#readme",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "axios": "^0.19.2",
+    "express": "^4.17.1",
     "next": "^9.1.1",
+    "next-routes": "^1.4.2",
     "node": "^14.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
