@@ -1,7 +1,9 @@
-import Navigation from '../components/Navigation'
-import React, { Component } from 'react'
+import Footer from '../components/Footer';
+import Navigation from '../components/Navigation';
+import React, { Component } from 'react';
 import axios from 'axios';
-import { Fragment } from 'react'
+import { Fragment } from 'react';
+import "../styles/index.css";
 
 export default class extends Component {
 
@@ -29,6 +31,7 @@ export default class extends Component {
           dangerouslySetInnerHTML={ {
             __html: this.props.post.content.rendered
           } } />
+          <Footer/>
       </Fragment>
     )
   }

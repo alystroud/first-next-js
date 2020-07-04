@@ -1,0 +1,14 @@
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blog-logo {
+   height: 200px;
+   width: 200px;
+}
+
+.bio p, .bio h3 {
+  text-align: center;
+}
