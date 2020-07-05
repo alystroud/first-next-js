@@ -1,3 +1,35 @@
 * {
-  font-family:'Abel', sans-serif;
+  font-family:'Abel', sans-serif !important;
+}
+
+body {
+  padding: 0;
+}
+
+a {
+  color: #800000 !important;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.posts-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post-list-item {
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
+
+.post-readmore {
+  display: none !important;
+}
+
+footer {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
 }

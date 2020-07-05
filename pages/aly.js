@@ -6,7 +6,7 @@ import "../styles/index.css";
 export default () => (
   <Fragment>
     <Navigation/>
-    <p>Aly Stroud</p>
+      <p>Aly Stroud</p>
     <Footer/>
   </Fragment>
 )

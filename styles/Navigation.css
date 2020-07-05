@@ -1,9 +1,10 @@
 nav {
   width: 100%;
-  border-bottom: 1px solid black;
-  display: flex;
+  background-color: #dddddd;
+  display: flex !important;
   flex-direction: row;
   justify-content: center;
+  height: 3rem;
 }
 
 nav ul {
@@ -12,6 +13,7 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-top: 1rem;
 }
 
 nav li {
