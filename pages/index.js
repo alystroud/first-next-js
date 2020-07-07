@@ -14,6 +14,7 @@ export default () => (
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"/>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </Head>
     <h1>Your new server-side rendered React.js app!</h1>
     <Footer/>

@@ -11,5 +11,13 @@ export default () => (
       experiences and encouraging others to try programming and reach their
       goals!</p>
     <p>Enjoy!</p>
+    <a className="twitter-timeline"
+       data-width="220"
+       data-height="600"
+       data-theme="light"
+       href="https://twitter.com/AlyCodeHippo?ref_src=twsrc%5Etfw">
+       Tweets by Aly
+    </a>
+    <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
   </div>
 )

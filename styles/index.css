@@ -1,5 +1,6 @@
 * {
   font-family:'Abel', sans-serif !important;
+  font-size: 1.05rem;
 }
 
 body {
@@ -8,6 +9,10 @@ body {
 
 a {
   color: #800000 !important;
+}
+
+a:hover {
+  font-weight: bolder;
 }
 
 .content {
@@ -26,6 +31,17 @@ a {
 
 .post-readmore {
   display: none !important;
+}
+
+.tormund-gallery {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.tormund-gallery img {
+  width: 20%;
+  height: auto;
 }
 
 footer {
