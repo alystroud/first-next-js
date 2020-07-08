@@ -37,6 +37,8 @@ a:hover {
   display: flex;
   flex-direction: row;
   margin-bottom: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .tormund-gallery img {
@@ -48,4 +50,10 @@ footer {
   display: flex !important;
   flex-direction: row;
   justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .tormund-gallery img {
+    width: 33%;
+  }
 }

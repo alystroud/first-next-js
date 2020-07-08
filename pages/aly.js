@@ -14,7 +14,7 @@ export default () => (
       <title>CodeHippo - Aly</title>
       <meta name="description" content="This is an example of a meta description. This will show up in search results." />
       <meta charSet="utf-8" />
-      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"/>
     </Head>
     <Navigation/>
