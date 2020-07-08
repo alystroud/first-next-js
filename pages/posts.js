@@ -39,7 +39,8 @@ export default class extends Component {
           <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
         </Head>
         <Navigation/>
-        <ScrollUpButton ContainerClassName="scroll-up-button"/>
+        <ScrollUpButton ContainerClassName="scroll-up-button"
+                        TransitionClassName="scroll-up-transition"/>
         <Container>
           <Row>
             <Col xs={12} sm={12} lg={9} xl={9} className="content">

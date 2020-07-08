@@ -4,5 +4,5 @@ const routes = require( 'next-routes' );
 module.exports = routes()
   .add( 'index', '/' )
   .add( 'posts' )
-  .add( 'single', '/posts/:slug' )
+  .add( 'single', '/posts/:slug', 'single')
   .add( 'aly');

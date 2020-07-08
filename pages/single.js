@@ -1,9 +1,13 @@
 import Head from 'next/head';
+import Bio from '../components/Bio';
 import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import ScrollUpButton from "react-scroll-up-button";
 import axios from 'axios';
-import { Fragment } from 'react';
 import "../styles/index.css";
 import "../styles/Single.css";
 
@@ -34,14 +38,25 @@ export default class extends Component {
           <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"/>
         </Head>
         <Navigation/>
-        <main>
-          <h1>{ this.props.post.title.rendered }</h1>
-          <article
-            className="entry-content"
-            dangerouslySetInnerHTML={ {
-              __html: this.props.post.content.rendered
-            } } />
-          </main>
+        <ScrollUpButton ContainerClassName="scroll-up-button"
+                        TransitionClassName="scroll-up-transition"/>
+        <Container>
+          <Row>
+            <Col xs={12} sm={12} lg={9} xl={9} className="content">
+              <main>
+                <h1>{ this.props.post.title.rendered }</h1>
+                <article
+                  className="entry-content"
+                  dangerouslySetInnerHTML={ {
+                    __html: this.props.post.content.rendered
+                  } } />
+                </main>
+              </Col>
+              <Col xs={12} sm={12} lg={3} xl={3}>
+                <Bio/>
+              </Col>
+            </Row>
+          </Container>
           <Footer/>
       </Fragment>
     )
