@@ -52,6 +52,11 @@ footer {
   justify-content: center;
 }
 
+.scroll-up-button {
+  background-color: rgba(128, 0, 0, 0.7) !important;
+}
+
+
 @media screen and (max-width: 600px) {
   .tormund-gallery img {
     width: 33%;

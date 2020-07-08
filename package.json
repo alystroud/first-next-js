@@ -28,6 +28,7 @@
     "node": "^14.4.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-scroll-up-button": "^1.6.4"
   }
 }

@@ -6,6 +6,7 @@ import React, { Component, Fragment } from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import ScrollUpButton from "react-scroll-up-button";
 import axios from 'axios';
 import Link from 'next/link';
 import "../styles/index.css";
@@ -38,6 +39,7 @@ export default class extends Component {
           <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
         </Head>
         <Navigation/>
+        <ScrollUpButton ContainerClassName="scroll-up-button"/>
         <Container>
           <Row>
             <Col xs={12} sm={12} lg={9} xl={9} className="content">
